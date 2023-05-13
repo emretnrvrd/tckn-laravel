@@ -1,0 +1,23 @@
+{
+    "name": "emretnrvrd/tckn-laravel",
+    "type": "library",
+    "require": {
+        "emretnrvrd/tckn": "^1.0",
+        "laravel/framework": "^9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Emretnrvrd\\TcknLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emretnrvrd\\TcknLaravel\\Providers\\TcknServiceProvider"
+            ]
+        }
+    },
+
+    "minimum-stability": "stable"
+}
